@@ -1,10 +1,11 @@
 HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
 ### Maven ###
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper
 .mvn
 
 ### STS ###
@@ -34,3 +35,25 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
