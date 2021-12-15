@@ -1,5 +1,11 @@
 HELP.md
-target/
+target/classes
+target/test-classes
+target/generated-sources
+target/generated-test-sources
+target/maven-archiver
+target/maven-status
+target/surefire-reports
 !**/src/main/**/target/
 !**/src/test/**/target/
 
